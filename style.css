@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+.joke{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 50vh; /* Adjust height to ensure proper centering */
+    text-align: center;
+}
+h1{
+    color: yellowgreen;
+    text-align: center;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    /
+}
+#joke{
+    width: 1000px; 
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.buttonCont {
+    display: flex;
+    justify-content: center; 
+    
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
